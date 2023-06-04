@@ -67,7 +67,7 @@ variable "create_cluster_primary_security_group_tags" {
 variable "aws_region" {
   type        = string
   description = "The AWS region for the provider to deploy resources into."
-  default     = "us-east-1"
+  default     = "eu-north-1"
 }
 
 variable "vpc_cidr_block" {
@@ -79,13 +79,13 @@ variable "vpc_cidr_block" {
 variable "dev1_subnet_az" {
   type        = string
   description = "Availability Zone of the subnet 1."
-  default     = "us-east-1a"
+  default     = "eu-north-1"
 }
 
 variable "dev2_subnet_az" {
   type        = string
   description = "Availability zone of subnet 2."
-  default     = "us-east-1b"
+  default     = "eu-north-1"
 }
 
 variable "dev1_subnet_cidr_block" {
