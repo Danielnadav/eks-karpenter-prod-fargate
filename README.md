@@ -96,3 +96,4 @@ of them. In this example, I'm deploying Jenkins on EKS. It takes about 15 minute
 #### Pods Crashing
 * Run ```kubectl logs --previous -p jenkins-0 -c init``` to view the logs for the Jenkins init container. 
 
+# terraform
