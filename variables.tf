@@ -35,7 +35,7 @@ variable "worker_group_name" {
 variable "worker_group_instance_type" {
   type        = list(string)
   description = "The instance type of the worker group nodes. Must be large enough to support the amount of NICS assigned to pods."
-  default     = ["t3.medium"]
+  default     = ["t3.large"]
 }
 
 variable "autoscaling_group_min_size" {
@@ -47,13 +47,13 @@ variable "autoscaling_group_min_size" {
 variable "autoscaling_group_desired_capacity" {
   type        = number
   description = "The desired number of nodes the worker group should attempt to maintain."
-  default     = 2
+  default     = 1
 }
 
 variable "autoscaling_group_max_size" {
   type        = number
   description = "The maximum number of nodes the worker group can scale to."
-  default     = 3
+  default     = 1
 }
 
 variable "create_cluster_primary_security_group_tags" {
