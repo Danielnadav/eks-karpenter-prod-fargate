@@ -1,0 +1,27 @@
+nadav@MacBook-Pro.lan:~$ git clone https://github.com/aws-samples/eks-workshop-v2.git
+
+Cloning into 'eks-workshop-v2'...
+remote: Enumerating objects: 19332, done.
+remote: Counting objects: 100% (3723/3723), done.
+remote: Compressing objects: 100% (1296/1296), done.
+remote: Total 19332 (delta 2753), reused 3058 (delta 2352), pack-reused 15609
+Receiving objects: 100% (19332/19332), 59.57 MiB | 3.64 MiB/s, done.
+Resolving deltas: 100% (11668/11668), done.
+
+~
+$
+git checkout build-4829020
+~
+$
+cd terraform^C
+
+nadav@MacBook-Pro.lan:~$ cd eks-workshop-v2/
+nadav@MacBook-Pro.lan:~/eks-workshop-v2$ git checkout build-4829020
+branch 'build-4829020' set up to track 'origin/build-4829020'.
+Switched to a new branch 'build-4829020'
+nadav@MacBook-Pro.lan:~/eks-workshop-v2$ cd terraform/
+nadav@MacBook-Pro.lan:~/eks-workshop-v2/terraform$ ls
+
+
+
+https://build-4829020.eksworkshop.com/docs/introduction/setup/your-account/
